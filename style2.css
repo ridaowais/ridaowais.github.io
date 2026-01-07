@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height : 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+@media(min-width: 768px){
+    .news-input{
+        width:50%;
+    }
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.h1{
+    font-family: 'Oswald', sans-serif;
+}
+.h3{
+    color: green;
+    font-family: 'Oswald', sans-serif;
+}
+.three{
+    position: relative;
+    width: 100px;
+}
+.nine
+{   width: 600px;
+    position: relative;
+    right: 50px;
+    height: 500px;
+    bottom: 5px;
+    align-items: stretch;
+    margin-left: 80px;
+}
+.navbar-brand:hover{
+    background-color:yellowgreen;
+}
